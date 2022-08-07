@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg, #6621af, #ae3eda);
+}
+
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #0e0e0e;
+}
+
+.container h2{
+    font-size: 200px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 20px;
+    background: url(assets/img/ny.png) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.container a{
+    text-decoration: none;
+    background: #ae3edaaa;
+    color: #6621af;
+    padding: 12px 24px;
+    display: inline-block;
+    border-radius: 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.container a:hover{
+    background: #ae3eda;
+}
+
+.container p{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: wavy;
+}
